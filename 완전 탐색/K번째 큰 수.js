@@ -11,7 +11,6 @@ function solution(n, arr) {
   }
 
   const s = new Set(temp.sort((a, b) => b - a));
-  console.log(s);
   return Array.from(s)[n - 1];
 }
 
