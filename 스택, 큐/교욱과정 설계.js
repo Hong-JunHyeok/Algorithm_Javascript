@@ -12,4 +12,4 @@ function solution(pill, plan) {
   else return "YES";
 }
 
-console.log(solution("CBA", "CGEADB"));
+console.log(solution("CBA", "CBDGE"));
